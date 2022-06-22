@@ -114,3 +114,14 @@ nav a.selected {
 }
 
 /* Your code here */
+
+@media screen and (min-width: 601px), (max-width: 900px){
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap ;
+    }
+    img, .content {
+        flex-direction: row-reverse;
+    }
+}
