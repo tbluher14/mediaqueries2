@@ -52,4 +52,29 @@ nav a.selected {
     cursor: default;
 }
 
+@media print {
+    nav{
+        display: none;
+    }
+}
+@media screen and (max-height: 640px){
+    header.homepage {
+        height: 50%;
+    }
+}
+
+@media screen {
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 390px), (max-height: 844px) {
+    a {
+        text-decoration: underline;
+    }
+}
+
 /* Your code here */
